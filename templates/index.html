@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="password-box">
+        <h1>Password Generator</h1>
+        <div id="password-display">{{ password if password else 'Click to generate a password' }}</div>
+        
+        <!-- Form to trigger password generation -->
+        <form method="POST" action="/">
+            <button id="button" type="submit"><b>Generate</b></button>
+        </form>
+    </div>
+</body>
+</html>
