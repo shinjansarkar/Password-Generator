@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://media.gettyimages.com/id/1413194945/video/security-icon-digital-code.jpg?s=640x640&k=20&c=YiyPdLrcfuATstYgnQwHOA7mdw_4ak3XLhE_DoycoPw=");
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-box {
+    background-color: rgba(255, 255, 255, 0.3); /* Transparent white box */
+    padding: 70px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 500px;
+    backdrop-filter: blur(5px); /* Slight blur behind the box */
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+#password-display {
+    padding: 10px;
+    border: 2px dashed #4CAF50;
+    background-color: rgba(224, 255, 224, 0.4); /* Transparent greenish box */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+#button{
+color: #333;
+margin-top: 30px;
+background-color: rgba(224, 255, 224, 0.4);
+border: none;
+outline: none;
+width: 30%;
+height: 35px;
+font-family: "Poppins", sans-serif;
+font-weight: bold;
+font-size: 19px;
+}
