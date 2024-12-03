@@ -1,3 +1,0 @@
-Flask
-random2
-gunicorn
